@@ -1,7 +1,7 @@
 module.exports = {
   baseUrl: '/',
   assetsDir: 'assets',
-  filenameHashing: false,
+  filenameHashing: true,
   productionTip: process.env.NODE_ENV !== 'production',
   devtools: process.env.NODE_ENV !== 'production',
   performance: process.env.NODE_ENV !== 'production',
